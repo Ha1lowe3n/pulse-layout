@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;500;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+img {
+  vertical-align: top;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  line-height: 1;
+  font-family: MuseoModerno, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+._container {
+  width: 980px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+:root {
+  --red-color: #c70101;
+}
+
+.button {
+  background-color: var(--red-color);
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.big-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+
+.promo {
+  background: url("../../img/promo_bg.jpg");
+  min-height: 650px;
+}
+.promo__info {
+  margin-left: 435px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.promo__title {
+  margin-bottom: 17px;
+}
+.promo__subtitle {
+  display: block;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: right;
+  margin-bottom: 60px;
+}
+.promo__description {
+  height: 100%;
+}
+.promo .description-promo {
+  max-width: 424px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 65px;
+}
+.promo .description-promo__item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+.promo .description-promo__icon {
+  width: 44px;
+  height: 44px;
+  display: block;
+  margin: 0 auto;
+}
+.promo .description-promo__text {
+  line-height: 14px;
+  max-width: 136px;
+}
+.promo__button {
+  padding: 12px 28px;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+.promo__catalog {
+  font-size: 16px;
+  line-height: 25px;
+}
+.promo__link {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.header {
+  margin-bottom: 91px;
+}
+.header__inner {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__representative {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.header__representative_address {
+  font-size: 18px;
+  line-height: 29px;
+}
+.header__tel {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.header__button {
+  font-size: 12px;
+  line-height: 19px;
+  align-self: end;
+  padding: 5px 20px;
+}

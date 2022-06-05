@@ -1,0 +1,40 @@
+.header {
+    margin-bottom: 91px;
+
+    &__inner {
+        padding-top: 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__representative {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+
+        &_address {
+            font-size: 18px;
+            line-height: 29px;
+        }
+    }
+
+    &__tel {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    &__button {
+        font-size: 12px;
+        line-height: 19px;
+        align-self: end;
+        padding: 5px 20px;
+    }
+}

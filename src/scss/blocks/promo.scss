@@ -1,0 +1,71 @@
+.promo {
+    background: url("../../img/promo_bg.jpg");
+    min-height: 650px;
+
+    &__info {
+        margin-left: 435px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    &__title {
+        margin-bottom: 17px;
+    }
+
+    &__subtitle {
+        display: block;
+        font-size: 24px;
+        line-height: 24px;
+        text-transform: uppercase;
+        text-align: right;
+        margin-bottom: 60px;
+    }
+
+    &__description {
+        height: 100%;
+    }
+
+    .description-promo {
+        max-width: 424px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 65px;
+
+        &__item {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            text-align: center;
+        }
+
+        &__icon {
+            width: 44px;
+            height: 44px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        &__text {
+            line-height: 14px;
+            max-width: 136px;
+        }
+    }
+
+    &__button {
+        padding: 12px 28px;
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+
+    &__catalog {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    &__link {
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+}

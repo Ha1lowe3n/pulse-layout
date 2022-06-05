@@ -1,0 +1,23 @@
+._container {
+    width: 980px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+:root {
+    --red-color: #c70101;
+}
+
+.button {
+    background-color: var(--red-color);
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.big-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 42px;
+    text-transform: uppercase;
+}
